@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\Digiclock\\Digiclock\\Digiclock.csproj": {}
+    "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\Digiclock\\Digiclock\\Digiclock.csproj": {
+    "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\WpfApp1\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\Digiclock\\Digiclock\\Digiclock.csproj",
-        "projectName": "Digiclock",
-        "projectPath": "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\Digiclock\\Digiclock\\Digiclock.csproj",
+        "projectUniqueName": "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+        "projectName": "WpfApp1",
+        "projectPath": "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
         "packagesPath": "C:\\Users\\nin_i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\Digiclock\\Digiclock\\obj\\",
+        "outputPath": "C:\\Users\\nin_i\\OneDrive\\Desktop\\Digital-Clock-WPF\\WpfApp1\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
