@@ -1,18 +1,19 @@
-﻿<Window x:Class="WpfApp1.MainWindow"
+﻿<Window x:Class="Digiclock.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:local="clr-namespace:Digiclock"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Loaded="Window_Loaded">
-
+        Title="MainWindow" Height="300" Width="300" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Loaded="Window_loaded">
+   
+    
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="300"></WindowChrome>
     </WindowChrome.WindowChrome>
-    
-    
-    
+
+
+
     <Border CornerRadius="360" BorderBrush="#FFDF66" BorderThickness="5" Background="#2D2D30">
         <StackPanel WindowChrome.IsHitTestVisibleInChrome="True">
             <Label Foreground="#FFDF66" Margin="0,15,0,0" FontSize="25" FontFamily="Stromfaze" HorizontalAlignment="Center">
