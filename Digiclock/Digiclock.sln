@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digiclock", "Digiclock\Digiclock.csproj", "{030C061E-AC8D-4072-9FF7-3E51A58D1918}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digiclock", "Digiclock\Digiclock.csproj", "{7A4D06B0-E9A0-4F38-B9C8-96885D5F2381}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{030C061E-AC8D-4072-9FF7-3E51A58D1918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{030C061E-AC8D-4072-9FF7-3E51A58D1918}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{030C061E-AC8D-4072-9FF7-3E51A58D1918}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{030C061E-AC8D-4072-9FF7-3E51A58D1918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4D06B0-E9A0-4F38-B9C8-96885D5F2381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4D06B0-E9A0-4F38-B9C8-96885D5F2381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4D06B0-E9A0-4F38-B9C8-96885D5F2381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4D06B0-E9A0-4F38-B9C8-96885D5F2381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {454E1C38-9AAE-4A83-9810-F723E6C7C118}
+		SolutionGuid = {D099B7CC-1861-4DDD-B16D-D8391DB05D0C}
 	EndGlobalSection
 EndGlobal

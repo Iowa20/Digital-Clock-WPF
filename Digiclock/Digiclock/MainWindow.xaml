@@ -5,9 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Digiclock"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Loaded="Window_loaded">
-   
-    
+        Title="MainWindow" Height="300" Width="300" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Loaded="Window_Loaded">
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="300"></WindowChrome>
     </WindowChrome.WindowChrome>
