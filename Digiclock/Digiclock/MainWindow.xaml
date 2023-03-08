@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Digiclock"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300" AllowsTransparency="True" WindowStyle="None" Background="Transparent" Loaded="Window_Loaded">
+        Title="MainWindow" Height="300" Width="300" AllowsTransparency="True" MouseDown="Window_MouseDown" WindowStyle="None" Background="Transparent" Loaded="Window_Loaded">
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="300"></WindowChrome>
     </WindowChrome.WindowChrome>
@@ -19,7 +19,7 @@
             </Label>
 
             <StackPanel Background="#3F3F46" Margin="0,20,0,5" Width="280" Height="100">
-                <Label Name="tibelbl" Margin="0,20,0,0" Foreground="#FFDF66" FontSize="40" FontFamily="Stormfaze" HorizontalAlignment="Center">
+                <Label Name="timelbl" Margin="0,20,0,0" Foreground="#FFDF66" FontSize="40" FontFamily="Stormfaze" HorizontalAlignment="Center">
                     00:00:00
                 </Label>
             </StackPanel>
@@ -31,7 +31,7 @@
             </StackPanel>
 
 
-            <Button Width="60" Padding="5,5,5,5" Background="#FFDF66" FontSize="10" FontFamily="Stromfaze" Foreground="#333333" BorderThickness="0" Name="CLosebtn_Click_1">
+            <Button Width="60" Padding="5,5,5,5" Background="#FFDF66" FontSize="10" FontFamily="Stromfaze" Foreground="#333333" BorderThickness="0" x:Name="CLosebtn_Click_1" Click="Close_btn">
                 Close
             </Button>
 
