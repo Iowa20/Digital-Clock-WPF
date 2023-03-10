@@ -1,11 +1,11 @@
 ﻿<Window x:Class="Digiclock.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:d="http://schemas.microsoft.com/expession/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Digiclock"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300" AllowsTransparency="True" MouseDown="Window_MouseDown" WindowStyle="None" Background="Transparent" Loaded="Window_Loaded">
+        Title="MainWindow" Height="420" Width="420" AllowsTransparency="True" MouseDown="Window_MouseDown" WindowStyle="None" Background="Transparent" Loaded="Window_Loaded">
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="300"></WindowChrome>
     </WindowChrome.WindowChrome>
@@ -24,17 +24,17 @@
             <StackPanel WindowChrome.IsHitTestVisibleInChrome="True">
 
 
-            <Label Foreground="#6fef91" Margin="0,15,0,0" FontSize="25" FontFamily="Stromfaze" HorizontalAlignment="Center">
+            <Label Foreground="#6fef91" Margin="0,40,0,0" FontSize="25" FontFamily="Impact" HorizontalAlignment="Center">
                 Ed's Clock
             </Label>
 
-            <StackPanel Background="#3F3F46" Margin="0,45,0,5" Width="140" Height="50">
+            <StackPanel Background="#3F3F46" Opacity=".7" Margin="0,100,0,5" Width="140" Height="50">
                 <Label Name="timelbl" Margin="0,10,0,0" Foreground="#6fef91" FontSize="20" FontFamily="Stormfaze" HorizontalAlignment="Center">
                     00:00:00
                 </Label>
             </StackPanel>
 
-            <StackPanel Background="#3F3F46" Margin="0,10,0,10" Width="140" Height="45">
+            <StackPanel Background="#3F3F46" Opacity=".7" Margin="0,10,0,10" Width="140" Height="45">
                 <Label Name="datelbl" Margin="0,10,0,0" Foreground="#6fef91" FontSize="10" FontFamily="Britanic Bold" HorizontalAlignment="Center">
                     00.00.2000
                 </Label>
